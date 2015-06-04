@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../fisa.js').cli.run( process.argv );
