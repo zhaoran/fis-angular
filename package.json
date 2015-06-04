@@ -1,6 +1,6 @@
 {
     "name": "fis-angular",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "main": "fisa.js",
     "bin": {
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zhaoran/fis-angular"
+        "url": "https://zhaoran@github.com/zhaoran/fis-angular.git"
     },
     "keywords": [
         "fis"
@@ -22,7 +22,7 @@
     "license": "BSD",
     "dependencies": {
         "fis": "~1.9.17",
-        "fis-parser-less": "~0.1.3",
+        "fis-parser-less": "0.1.0",
         "fis-packager-depscombine": "~0.0.8",
         "fis-postprocessor-annotate": "~1.2.6",
         "fis-postpackager-autoload": "~0.0.20",
