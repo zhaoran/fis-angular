@@ -1,6 +1,6 @@
 {
     "name": "fis-angular",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "main": "fisa.js",
     "bin": {
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/zhaoran/fis-angular"
     },
     "keywords": [
         "fis"
