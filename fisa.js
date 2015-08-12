@@ -14,6 +14,9 @@ require('./build/bower_boost.js');
 fis.config.merge({
 
     staticModule : 'static',
+    server : {
+        type : 'node'
+    },
 
     modules : {
         parser : {
@@ -43,28 +46,8 @@ fis.config.merge({
         },
         path : [
             {
-                reg : /.*\.(md|gzip|map|min\.js)$/i,
-                release : false
-            },
-            {
                 reg : /(server\.conf)$/i,
                 release : 'config/$1'
-            },
-            {
-                reg : /build\.sh$/i,
-                release : false
-            },
-            {
-                reg : /map\.json$/i,
-                release : false
-            },
-            {
-                reg : /(bower\.json|Gruntfile\.js)/i,
-                release : false
-            },
-            {
-                reg : /public\/lib\/.*\.json$/i,
-                release : false
             },
             {
                 reg : /\/(test\/.*)/i,
@@ -97,14 +80,17 @@ fis.config.merge({
                     isAnnotate : true
                 }
             },
-
             {
-                reg : /(.*\.(?:js|css|less|scss|html|jpg|png))$/i,
+                reg : /(.*\.(?:js|css|less|scss|html|gif|jpg|png|swf))$/i,
                 release : '${staticModule}/$1',
             },
             {
                 reg : /(.*\.(?:eot|svg|ttf|woff|woff2|otf))$/i,
                 release : '${staticModule}/$1',
+            },
+            {
+                reg : '**',
+                release : false
             }
         ]
     }
