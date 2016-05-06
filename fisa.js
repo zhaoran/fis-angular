@@ -25,7 +25,7 @@ fis.config.merge({
         packager : 'depscombine',
         postpackager : 'autoload, simple',
         postprocessor : {
-            js : 'jswrapper, annotate'
+            js : 'jswrapper, annotate-lastest'
         }
     },
     settings : {
