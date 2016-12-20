@@ -1,6 +1,6 @@
 {
     "name": "fis-angular",
-    "version": "0.0.11",
+    "version": "0.0.23",
     "description": "",
     "main": "fisa.js",
     "bin": {
@@ -24,8 +24,9 @@
         "fis": "1.9.17",
         "fis-parser-less": "~0.1.0",
         "fis-packager-depscombine": "~0.0.8",
-        "fis-postprocessor-annotate-lastest": "~0.0.3",
+        "fis-postprocessor-annotate-lastest": "~0.0.4",
         "fis-postpackager-autoload": "~0.0.20",
-        "fis-postpackager-simple": "~0.0.25"
+        "fis-postpackager-simple": "~0.0.25",
+        "fis-parser-babel-es2015": "0.0.3"
     }
 }
